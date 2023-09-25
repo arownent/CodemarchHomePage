@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    height: 70px;
+    background-color: rgb(22, 21, 21);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.logo img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+.logo h1{
+    margin: 10px;
+}
+
+.navbar ul{
+    display: flex;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    border-bottom: 2px solid white;
+}
+main{
+    margin-top: 70px;
+}
+
+.hero{
+    height: 80vh;
+    background-color: #fdf2e9;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 120px;
+}
+
+.textbox h2 span{
+    color: orange;
+}
+
+.textbox h2{
+    font-size: 50px;
+}
+
+.textbox p{
+    margin: 30px 0px;
+    text-align: justify;
+    font-size: large;
+}
+
+.imagebox img{
+    height: 70vh;
+    width: 40vw;
+    object-fit: cover;
+}
+
+.textbox button{
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.placeimages{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.placeimages img{
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.overlay{
+    margin-left: -10px;
+}
+
+.placeimages p{
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.placeimages p span{
+    color: orange;
+}
+
+.services{
+    height: 160vh;
+    background-color: rgb(22, 21, 21);
+    padding: 50px 160px;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.heading h3 span{
+    color: red;
+}
+
+.heading p{
+    margin: 60px 130px;
+}
+
+.servicesbox{
+    height: 120vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin: 0px 60px;
+}
+
+.boxstyle{
+    background-color: rgb(32, 30, 30);
+    height: 300px;
+    width: 30%;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+}
+
+.upperbox{
+    padding: 20px;
+}
+
+.servicesbox hr{
+    border: 1.5px solid rgb(22, 21, 21);
+}
+
+.boxstyle i{
+    color: red;
+    font-size: xx-large;
+    margin-bottom: 10px;
+}
+
+.lowerbox{
+    padding: 20px;
+    font-size: small;
+}
+
+.readmore{
+    display: flex;
+    padding: 10px 20px;
+    font-size: small;
+    cursor: pointer;
+}
+
+.readmore i{
+    font-size: medium;
+    margin-right: 10px;
+}
+
+.contacttestimonial{
+    height: 150vh;
+    background-color: #fdf2e9;
+    padding: 50px;
+}
+
+.testimonialheading{
+    text-align: center;
+}
+
+.testimonialsection{
+    height: 70vh;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonialbox{
+    height: 90%;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.personimage{
+    display: flex;
+    justify-content: center;
+}
+
+.personimage img{
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+}
+
+.personname p{
+    text-align: center;
+    font-size: larger;
+    margin: 15px 0px;
+}
+
+.personratings{
+    text-align: center;
+    margin: 15px 0px;
+}
+
+.personratings i{
+    color: orange;
+    font-size: small;
+}
+
+.persontestimonial p{
+    font-size: small;
+    text-align: center;
+}
+
+.contactusinfo{
+    height: 50vh;
+    padding: 0px 140px;
+}
+
+.contactdiv{
+    height: 50vh;
+    display: flex;
+    padding: 30px 0px 30px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.contactus{
+    width: 70vw;
+}
+
+.contactus p{
+    margin: 15px 0px;
+    font-size: medium;
+}
+
+.contactus input{
+    width: 70%;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contactus textarea{
+    width: 70%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.contactus button{
+    width: 70%;
+    height: 40px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to bottom , rgb(173, 64, 173), rgb(80, 80, 228));
+    margin-top: 15px;
+}
+
+.contactinfo{
+    width: 30vw;
+    height: 70%;
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.contactinfo p{
+    line-height: 30px;
+    font-size: smaller;
+}
+
+.conatcticons{
+    margin-top: 30px;
+}
+
+.usefullinks{
+    height: 200px;
+    background-color: black;
+    padding: 0px 180px;
+}
+
+.usefullinksdiv{
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.followus h3{
+    color: white;
+    margin-bottom: 40px;
+}
+
+.followus ul li a{
+    list-style: none;
+    color: gray;
+    text-decoration: none;
+}
+
+.subscribe p{
+    color: gray;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.subscribeicon i{
+    background-color: rgb(250, 40, 40);
+    height: 40px;
+    width: 50px;
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    padding: 4px;
+}
+
+.subscribeicon input{
+    height: 40px;
+    width: 150px;
+    color: gray;
+    background-color: #2e2828;
+    border: none;
+    text-align: center;
+}
+
+.copyrights{
+    height: 60px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(22, 21, 21);
+    color: gray;
+}
+
+.copyrights p span{
+    color: red;
+}
